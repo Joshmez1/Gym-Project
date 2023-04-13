@@ -7,6 +7,9 @@
 
         font-family: "Open Sans",sans-serif;
         font-size: 15px;
+        position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
         
         
         
@@ -17,6 +20,7 @@
         width: 100%;
         height:100px;
         padding-top: 25px;
+        
         
         
     }
@@ -96,10 +100,7 @@
     right: 0;
     padding: 1em;
   }
-  h1,h2,h3 {
-    font-size: 2.3em;
-    font-weight: bold;
-  }
+  
   .myform {
     padding: 2em;
     max-width: 100%;
@@ -123,23 +124,22 @@
     border-radius: 0;
     border-bottom: 1px solid #fff;
   }
-  .myform .btn {
+  .myform {
     width: 100%;
     font-weight: 800;
-    background-color: #fff;
+    background-color: #f50000;
     border-radius: 0;
     padding: 0.5em 0;
   }
   .myform .btn:hover {
     background-color: inherit;
     color: #fff;
-    border-color: #fff;
-  }
-  p {
     text-align: center;
     padding-top: 2em;
-    color: grey;
+    color: rgb(253, 253, 253);
   }
+
+  
   p a {
     color: #e1e1e1;
     text-decoration: none;
@@ -153,33 +153,54 @@
 
   .quote-1 {
     
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-family: inherit;
+  width: 350px;
+  height: auto;
+  background-color: white; 
+ text-align: center;
+ margin:0 auto;
+ 
+
   }
+
+  .quote-1 h3 {
+    
+    text-transform: uppercase;
+  
+    }
 
   .quote-2 {
     
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-family: inherit;
+    width: 350px;
+  height: 300px;
+  background-color: white; 
+ text-align: center;
+ margin:0 auto;
+ padding: 1rem;
   }
 
+  .quote-2 h3 {
+    
+    text-transform: uppercase;
+  
+    }
   
   
 
 
 /***************Footer*/
 
-footer {
-    height: 150px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding-bottom: 100px;
+.footer {
+  
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+    
 }
+    
 
 .social-networks{
     text-align: center;
@@ -195,4 +216,10 @@ footer {
     margin: 1%;
     padding: 5%;
     color: white;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  border-color: white;
 }
