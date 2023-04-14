@@ -11,10 +11,7 @@
     body { 
 
         font-family: "Open Sans",sans-serif;
-        font-size: 15px;
-        
-  
-        
+        font-size: 25px;
         
         
     }
@@ -28,6 +25,8 @@
         
         
     }
+
+    
 /***********************Nav and heading**/
     .logo {
     text-transform: uppercase;
@@ -66,7 +65,7 @@
 /***************************Hero background****/
     
 
-.bg-img{
+.background {
     height: 1000px;
     width:100%;
     background:url(images/boy.jpg) no-repeat center center;
@@ -76,6 +75,13 @@
 
 }
 
+.background-2{
+  height: 1000px;
+    max-width:100%;
+    background:url(images/background-2.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
 
 .call-out {
     background-color: black;
@@ -92,7 +98,7 @@
 }
 
 /******************Modal**/
-.modal-content {
+.modal-content .exampleModalLabel {
     width: 80%;
     margin: 0 auto;
   }
@@ -157,38 +163,21 @@
 
   /****************************quotes*/
 
-  .quote-1 {
-    
-  width: 350px;
-  height: auto;
-  background-color: white; 
- text-align: center;
- margin:0 auto;
+  .quote {
+
+text-align: center;
+
  
 
   }
 
-  .quote-1 h3 {
+  .quote h3 {
     
     text-transform: uppercase;
   
     }
 
-  .quote-2 {
-    
-    width: 350px;
-  height: 300px;
-  background-color: white; 
- text-align: center;
- margin:0 auto;
- padding: 1rem;
-  }
-
-  .quote-2 h3 {
-    
-    text-transform: uppercase;
   
-    }
   
   
 
@@ -226,8 +215,11 @@
     color: white;
 }
 
-.card {
+.card{
   background-color: black;
-  color: white;
-  border-color: white;
+  color: #7e7e7e;
+}
+
+.card-header {
+  text-transform: uppercase;
 }
