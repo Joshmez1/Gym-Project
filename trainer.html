@@ -11,24 +11,58 @@
 </head>
 <body>
     
-    <header class="container-fluid bg-img background">
+  <header class="container-fluid ">
 
-        <h1 class="logo">Amino Disrespect <i class="fa-solid fa-dumbbell fa-bounce"></i></h1>
+    <h1 class="logo displa ">Amino Disrespect <i class="fa-solid fa-dumbbell fa-bounce"></i></h1>
 
-        <ul class="nav  nav-fill ">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="trainer.html">Personal Trainer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="challange.html">30 Day Challange</a>
-            </li>
+    <nav>
+      <ul class="nav  navbar-collapse  nav-fill ">
+          <li class="nav-item">
             
-          </ul>
+            <a href="index.html" data-replace="Home"><span>Home<span></a>
+          </li>
+          <li class="nav-item">
+            <a href="trainer.html" data-replace="Need a PT?"><span>Personal Trainer;s<span></a>
+          </li>
+          <li class="nav-item">
+            <a href="challange.html" data-replace="Lets go!"><span>30 Day Challange<span></a>
+          </li>
+          
+        </ul>
+      </nav>
+  </header>
+     
 
-    </header>
+      <div class=" container-fluid background cover-text "> 
+        <h2>Unleash your inner athlete </h2>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#ModalForm">
+            What are you waiting for?!
+          </button>
+        <div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="myform bg-dark">
+                        <h1 class="text-center">Login Form</h1>
+                        <form>
+                            <div class="mb-3 mt-4">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="ModalFormLabel">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-light mt-3">LOGIN</button>
+                            <p>Not a member? <a href="#">Signup now</a></p>
+                        </form>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
 
     <div class="jumbotron bg-black text-white text-center">
       <h1 class="display-4">Are you looking to take your training to the next level?!</h1>
@@ -38,18 +72,18 @@
 
     <div class="container-fluid"> 
 
-      <div class="row g-3">
-        <div class="col-12 col-md-6 col-lg-3 col-xl-4">
-    <div class="card">
+      <div class="row bg-black g-4 ">
+        <div class="col-12 col-md-6 col-lg-4 ">
+    <div class="trainer">
       <img src="assest/css/images/girl-trainer-2.jpg" class="card-img-top" alt="...">
+
+
       <div class="card-body">
-        
-          
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  
+          <button type="button" class="btn btn-lg " data-bs-toggle="modal" data-bs-target="#exampleModal">
             Jenny's Story
-          </button>
-          
-          <!-- Modal -->
+            </button>
+
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
               <div class="modal-content">
@@ -83,12 +117,12 @@
     </div>
   
 
-  <div class="col-12 col-md-6 col-lg-3 col-xl-4">
-    <div class="card">
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="trainer">
       <img src="assest/css/images/pexels-julia-larson-6456211.jpg" class="card-img-top" alt="...">
       <div class="card-body">
 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#simon">
+        <button type="button" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#simon">
           Simon's Story
         </button>
         
@@ -127,19 +161,19 @@
     
   
   
-  <div class="col-12 col-md-6 col-lg-3 col-xl-4">
-<div class="card">
+  <div class="col-12 col-md-6 col-lg-4 ">
+<div class="trainer">
   <img src="assest/css/images/girl-trainer.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text"> 
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#laura">
+    <button type="button" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#laura">
       Laura's Story
      </button>
      
      <!-- Modal -->
      <div class="modal fade" id="laura" tabindex="-1" aria-labelledby="laura" aria-hidden="true">
        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-         <div class="modal-content">
+         <div class="modal-content1">
            <div class="modal-header">
              <h5 class="modal-title" id="laura">More About Laura</h5>
              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -167,6 +201,7 @@
 
     
   </div>
+</div>
 </div>
 </div>
 </div>
