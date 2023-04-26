@@ -121,13 +121,20 @@
 
 /***************************************Quotes**/
 
-.quote-section{
+.quote-section {
   background-color: rgb(0, 0, 0);
   width: 100%;
   height: auto;
   color: white;
   }
   
+  .quote-challange {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    }
   
   
     
@@ -148,9 +155,8 @@
        
       
         }
-  .quote-challange {
-      text-align: center;
-    }
+
+ 
   
     .quote-challange h3 {
       text-transform: uppercase;
@@ -185,6 +191,16 @@
 
 .title {
   color: black;
+}
+
+.btn {
+  border-color: white;
+  color: white;
+}
+
+.btn:hover{
+  background-color: red;
+  color: white;
 }
 
 .wrapper {
@@ -254,8 +270,8 @@
   font-weight: 700;
 }
 
-.wrapper .contact-form .btn.btn-default {
-  color: #F50057;
+.wrapper .contact-form .btn {
+  color: #020202;
 }
 
 
@@ -317,21 +333,35 @@
 
 
 /************************Trainer-cards*****/
-.trainer .btn {
-  padding-top:10px;
-}
-.trainer .btn:hover {
-  color: white;
+
+
+
+.display-4 {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-.trainer p {
-  font-size: 15px;
-}
+
 
 /**************************Media Queries*/
 
 
-  
+/**************MAP*****/
+.map-container-2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-2 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position: absolute;
+
+
+}
   
 
 
