@@ -11,33 +11,49 @@
 </head>
 <body>
     
-  <header class="container-fluid ">
+    <header class="container-fluid ">
+ 
+        
 
-    <h1 class="logo ">Amino Disrespect <i class="fa-solid fa-dumbbell fa-bounce"></i></h1>
-
-    <nav>
-      <ul class="nav  navbar-collapse  nav-fill ">
-          <li class="nav-item">
-            
-            <a href="index.html" data-replace="Home"><span>Home<span></a>
-          </li>
-          <li class="nav-item">
-            <a href="trainer.html" data-replace="Need a PT?"><span>Personal Trainers<span></a>
-          </li>
-          <li class="nav-item">
-            <a href="challange.html" data-replace="Lets go!"><span>30 Day Challange<span></a>
-          </li>
-          
-        </ul>
-      </nav>
-  </header>
+        
+        <nav class=" logo nav navbar fixed-top navbar-expand-lg navbar-no-bg navbar-dark">
+            <a class="brand navbar-brand" href="index.html" data-replace="Home"><span>Amino Disrespect <i class="fa-solid fa-dumbbell fa-bounce"></i><span></a>
+              
+              <button class="navbar-toggler "
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto">
+                  
+                  <li class="nav-item active">
+                    <a class="nav-link scroll-link" href="trainer.html"  data-replace="Need a PT?"><span>Personal Trainers<span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scroll-link" href="challange.html" data-replace="Lets go!"><span>30 Day Challange<span></a>
+    
+                  </li>
+                
+                  
+                </ul>
+              </div>
+     
+          </nav>
+     
+          </header>
      
 
     
-    <div class="jumbotron bg-black text-white text-center">
-      <h1 class="display-4">Are you looking to take your training to the next level?!</h1>
-      <p class="lead">Find out more about our very own personal trainers.</p>
-      <p>To get a free consultation head over to the 30 day Challange.</p>
+    <div class=" jumbotron bg-black text-white text-center">
+      <h1 class=" display-2">Are you looking to take your training to the next level?!</h1>
+      <span class="sign" > <i class="fa-solid fa-angle-down"></i> </span>
+      <p class="display-4">Find out more about our very own personal trainers.</p>
+      <span class="sign" > <i class="fa-solid fa-angle-down"></i> </span>
+      <p class="display-5">To get a free consultation head over to the 30 day Challange.</p>
+      <span class="sign" ><i class="fa-solid fa-angle-down"></i> </span>
     </div>
 
     <div class="container-fluid"> 
@@ -50,15 +66,15 @@
 
       <div class="card-body">
   
-          <button type="button" class="btn btn-lg " data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn btn-lg " data-bs-toggle="modal" data-bs-target="#jenny">
             Jenny's Story
             </button>
 
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal fade" id="jenny" tabindex="-1" aria-labelledby="jenny" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-              <div class="modal-content">
+              <div class="modal-content2">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel"> More about Jenny</h5>
+                  <h5 class="modal-title" id="jenny-label"> More about Jenny</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -99,7 +115,7 @@
         <!-- Modal -->
         <div class="modal fade" id="simon" tabindex="-1" aria-labelledby="simon" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
+            <div class="modal-content2">
               <div class="modal-header">
                 <h5 class="modal-title" id="simon"> More about Simon</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -142,8 +158,8 @@
      
      <!-- Modal -->
      <div class="modal fade" id="laura" tabindex="-1" aria-labelledby="laura" aria-hidden="true">
-       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-         <div class="modal-content">
+       <div class="modal-dialog modal-dialog-centered modal-dialog-scrol2lable">
+         <div class="modal-content2">
            <div class="modal-header">
              <h5 class="modal-title" id="laura">More About Laura</h5>
              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
