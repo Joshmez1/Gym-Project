@@ -410,6 +410,22 @@ a {
     
 }
 
+@media (max-width: 496px) {
+
+    
+    .nav .brand {
+        
+        margin:auto;
+        
+    }
+
+    .navbar-toggler {
+        margin: auto;
+    }
+    
+}
+
+
 /**************MAP*****/
 .map-container-2{
   overflow:hidden;
