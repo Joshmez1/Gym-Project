@@ -73,23 +73,23 @@
                             <form>
                                 <div class="form-group pt-3">
                                     <label for="message">Message</label>
-                                    <textarea name="message" class="form-control" required></textarea>
+                                    <textarea name="message" id="message" class="form-control" required></textarea>
                                 </div>
                                 <div class="d-flex align-items-center flex-wrap justify-content-between pt-4">
                                     <div class="form-group pt-lg-2 pt-3">
                                         <label for="name">Your Name</label>
-                                        <input type="text" name="name" class="form-control" required>
+                                        <input type="text"  id="name" name="name" class="form-control" required>
                                     </div>
                                     <div class="form-group pt-lg-2 pt-3">
                                         <label for="name">Your Email</label>
-                                        <input type="email" name="email" class="form-control" required>
+                                        <input type="email" id="email" required name="email" class="form-control" >
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center flex-wrap justify-content-between pt-lg-5 mt-lg-4 mt-5">
                                     <div class="btn btn-default">
                                         Cancel
                                     </div>
-                                    <div class="btn " data-bs-toggle="modal" data-bs-target="#myModal">
+                                    <div class="btn " data-bs-toggle="modal" type="submit" value="submit" data-bs-target="#nextsteps">
                                         Submit
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@
                         </div>
                     </div>  
 
-                    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="Thankyoubox" aria-hidden="true">
+                    <div class="modal fade" id="nextsteps" tabindex="-1" aria-labelledby="Thankyoubox" aria-hidden="true">
                       <div class="modal-dialog">
                           <div class="modal-content">
                               <div class="modal-header">
