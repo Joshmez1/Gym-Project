@@ -330,9 +330,10 @@ a {
     }
   }
 
+
   .modal-content2 {
     text-align: justify;
-    font-size: small;
+    font-size: medium;    
     background-color: black;
     color: white;
     
@@ -343,12 +344,14 @@ a {
     padding-top:100px; 
 }
 
-.challange-buttom {
-    padding-top: 10px ; 
+.challange-button {
+    padding-top: 25px ; 
 }
 
 
 /**************************Media Queries*/
+
+/*Nav bars*/
 
 @media (min-width: 992px) { 
    
@@ -424,8 +427,31 @@ a {
     }
     
 }
+/*Trainer Quotes*/
+
+@media (max-width: 1199.98px) {
 
 
+.modal-content2 {
+    text-align: justify;
+    font-size: medium;
+    background-color: black;
+    color: white;
+    
+  }
+}
+
+@media (max-width: 496px) {
+
+
+    .modal-content2 {
+        text-align: justify;
+        font-size: small;
+        background-color: black;
+        color: white;
+        
+      }
+    }
 /**************MAP*****/
 .map-container-2{
   overflow:hidden;
