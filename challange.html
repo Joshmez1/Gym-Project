@@ -18,7 +18,8 @@
             <button class="navbar-toggler "
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#navbarCollapse">
+                  data-bs-target="#navbarCollapse"
+                  aria-label="navigation button">
                 <span class="navbar-toggler-icon "></span>
             </button>
 
@@ -40,7 +41,7 @@
             <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#ModalForm">
                 What are you waiting for?!
             </button>
-                <div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+                <div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalForm" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                       <div class="modal-content">
                         <div class="modal-body">
@@ -78,9 +79,9 @@
                                         <div class="btn btn-default">
                                             Cancel
                                         </div>
-                                        <div class="btn " data-bs-toggle="modal" type="submit" data-bs-target="#nextsteps">
+                                        <button class="btn " data-bs-toggle="modal" type="submit" data-bs-target="#nextsteps">
                                             Submit
-                                        </div>
+                                        </button>
                                     </div>
                                 </form>
                             </div>
@@ -133,7 +134,7 @@
 
 <!--Google map-->
 <div class="map-container-2">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2954.839432507013!2d-3.172713166300769!3d51.481765874762466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1682507815504!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2954.839432507013!2d-3.172713166300769!3d51.481765874762466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1682507815504!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Location of the business"></iframe>
 </div>
 
 </div>
@@ -143,27 +144,28 @@
 
     
 
-footer> 
+<footer>
     <div class="container-fluid footer"> 
         <div class="card">
             <div class="card-header">
-              Need Some Motivating?
+                  Need Some Motivating?
             </div>
             <div class="card-body">
                 <blockquote class="blockquote mb-0">
                     <p>I hated every minute of training, but I said, Dont quit. Suffer now and live the rest of your life as a champion.</p>
-                    <p class="blockquote-footer card-footer">Muhammad ali <cite title="Source Title"></cite> </p>
-                </blockquote>
+                    <p class="blockquote-footer card-footer">Muhammad ali <cite title="Source Title"></cite></p>
+                  </blockquote>
             </div>
         </div>
-        <ul class="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></li>
-            <li><a href="https://www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"></i></li>
-            <li><a href="https://www.youtube.com" target="_blank"> <i class="fa-brands fa-youtube"></i></li>
-            <li><a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i> </li>
-        </ul>
+    
+            <ul class="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank" aria-label="facebook link" > <i class="fa-brands fa-facebook"></i> </a></li>
+                <li><a href="https://www.twitter.com" target="_blank" aria-label="twitter link" > <i class="fa-brands fa-twitter"></i> </a></li>
+                <li><a href="https://www.youtube.com" target="_blank" aria-label="youtube link"  > <i class="fa-brands fa-youtube"></i> </a></li>
+                <li><a href="https://www.instagram.com" target="_blank" aria-label="instagram link"> <i class="fa-brands fa-instagram"></i> </a></li>
+            </ul>
     </div>
-</footer>
+    </footer>
     <script src="https://kit.fontawesome.com/fd9572b60d.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>
