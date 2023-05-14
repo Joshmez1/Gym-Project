@@ -151,12 +151,12 @@ a class="nav-link scroll-link" href="trainer.html" data-replace="Need a PT?">spa
 
 |Page|Device|Lighthouse Results|Comments|
 |---|---|---|---|
-|Index  |Desktop |![Index Results](documentation/index_mobile_performance.png)||
-|Index  |Mobile |![IndexResults](documentation/index_desktop_performance.png)||
-|Trainer |Desktop|![Trainer Results](documentation/about_mobile_performance.png)||
-|Trainer |Mobile |![Trainer Results](documentation/about_desktop_performance.png)||
-|Challange  |Desktop |![Trainer Results](documentation/gallery_mobile_performance.png)||
-|Challange  |Mobile|![Trainer Results](documentation/gallery_desktop_performance.png)||
+|Index  |Desktop |![Index Results](documentation/index-desktop.JPG)||
+|Index  |Mobile |![IndexResults](documentation/index-mobile.JPG)| Next-gen image formatting needed to increase performance.|
+|Trainer |Desktop|![Trainer Results](documentation/trainer-desktop.JPG)||
+|Trainer |Mobile |![Trainer Results](documentation/trainer-mobile.JPG)||
+|Challange  |Desktop |![Trainer Results](documentation/challange-desktop.JPG)||
+|Challange  |Mobile|![Trainer Results](documentation/challange-mobile.JPG)| Next-gen image formatting needed to increase performance.|
 
 
 
