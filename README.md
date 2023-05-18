@@ -224,6 +224,6 @@ Throughout the development process, extensive testing was conducted on different
 
 ### People
 
-- Thank you my mentor Chris Quinn for his support during my project
+- Thank you to my mentor Chris Quinn for his support during my project
 
 
