@@ -1,4 +1,5 @@
-# Amino Disrespect 
+# Amino Disrespect
+
 Amino Disrespect Gym is dedicated to serving all individuals seeking to join a fitness community and improve their physical and mental well-being.
 
 The website primarily targets new and inexperienced gym-goers, providing them with comprehensive information on how we can assist them in their fitness journey.
@@ -8,28 +9,30 @@ In the future, I plan to introduce a member login feature that will offer an enh
 ![Visual Representation](documentation/Responsive.JPG)
 
 ---
+
 ## User Experience (UX) & Design
+
 ---
+
 ### User Stories
 
 - First Time User
 
   - As a first-time user of the gym website,
-I want to understand the purpose and features of the website,
-So that I can navigate and utilise the platform effectively to meet my fitness goals.
+    I want to understand the purpose and features of the website,
+    So that I can navigate and utilise the platform effectively to meet my fitness goals.
 
 - Returning Visitor
 
   - As a returning visitor, I want to be able to register my interest to the services provided.
 
-- Website Admin 
+- Website Admin
 
   - As a website admin for the gym, I want to have a user-friendly interface for managing member registrations, so that I can ensure a smooth user experience.
 
 ### Research
 
 Through extensive research on various gyms across the UK, it became evident that a common approach was to exclude "prices" from their websites. Following suit, I have also chosen not to include pricing information. I believe that this approach encourages users to seek consultations, providing an opportunity for the business to establish relationships with users and potentially convert them into new customers.
-
 
 ### Typography
 
@@ -42,9 +45,10 @@ Through extensive research on various gyms across the UK, it became evident that
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 - ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-  - Bootstrap 5.30
 
-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+
+
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 - ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
@@ -53,7 +57,9 @@ Through extensive research on various gyms across the UK, it became evident that
 - ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 
 ---
-## Features 
+
+## Features
+
 ---
 
 ### Navigation Bar
@@ -68,16 +74,17 @@ This image represents hovering over the brand which would take you to the home p
 
 ![Navigation bar image](documentation/nav2.JPG)
 
-This image represents hovering over the personal trainer which would take you to the trainer page where you will find the information about the trainers. 
+This image represents hovering over the personal trainer which would take you to the trainer page where you will find the information about the trainers.
 
 ![Navigation bar image](documentation/nav3.JPG)
 
-This image represents hovering over the 30 day challange which would take you to the challange page where you will find the information on the 30 day challange. 
+This image represents hovering over the 30 day challange which would take you to the challange page where you will find the information on the 30 day challange.
 
 ---
 
 ### Footer
-The footer is made up of a motivaiton quote along with links to what would be the businesses social media. 
+
+The footer is made up of a motivaiton quote along with links to what would be the businesses social media.
 
 ![Footer with social media links image](documentation/footer.JPG)
 
@@ -95,12 +102,17 @@ The home page features a captivating full-page image accompanied by a compelling
 
 Upon clicking the button on the home page, a modal window is displayed, allowing users to register their interest in our service.
 
-The implementation of the modal was chosen due to its interactive nature and user-friendly design, which enhances the overall user experience.
+The implementation of the modal was chosen due to its interactive nature and user-friendly design, which enhances the overall user experience. When using the modal it will take you through to a Thank You page.
 
 ![Image of Modal](documentation/modal.JPG)
-![Image of Modal](documentation/modal1.JPG)
 
 ---
+
+### Thank You Page
+
+Registering your interest will bring users to the page where they have the option to leave the site or contuine to browse.
+
+## ![Image of Thank you Page](documentation/thankyou.JPG)
 
 ### Personal Trainer
 
@@ -118,7 +130,7 @@ On the Personal Trainer page, users are guided towards individual personal train
 
 The 30-Day Challenge page is specifically tailored for users who have followed the intended website flow, starting from the home page to explore the offered services, proceeding to the Personal Trainers page to identify their interests, and finally arriving at the 30-Day Challenge page. The same modal used previously is utilized here for users to register their interest in the challenge. Additionally, an embedded map is included to visually indicate the location.
 
-![Image of challange page ](documentation/challange.JPG)
+![Image of challange page ](documentation/c1.JPG)
 
 ![Image of challange page ](documentation/challange2.JPG)
 
@@ -126,41 +138,92 @@ The 30-Day Challenge page is specifically tailored for users who have followed t
 
 ---
 
-## Testing 
+## Testing
 
 ---
 
-The website has undergone thorough testing across multiple browsers, including Chrome, Firefox, and Edge. Additionally, Chrome's dev tools were utilized to ensure responsiveness across all breakpoints. The testing process also involved checking the website's compatibility on various devices such as Android, iPhone, and iPad.
+The website has undergone thorough testing across multiple browsers, including Chrome, Firefox, and Edge. Additionally, Chrome's dev tools were utilised to ensure responsiveness across all breakpoints. The testing process also involved checking the website's compatibility on various devices such as Android, iPhone, and iPad.
 
-  - Bugs - Whilst testing on devices i identified that the hambuger logo wasnt the correct color on mobile or tablet devices.  I wanted to change the color to all black and found out i could do that by manually changing the RBGA values through the URL: as seen below. I fixed this bug by reverting to the inherited color of the toggler. 
+- Bugs - Whilst testing on devices i identified that the hambuger logo wasnt the correct color on mobile or tablet devices. I wanted to change the color to all black and found out i could do that by manually changing the RBGA values through the URL: as seen below. I fixed this bug by reverting to the inherited color of the toggler.
 
 ![Image of toggle ](documentation/url.JPG)
-
 
 ### Validator Testing
 
 - HTML
-  - Error: Start tag a seen but an element of the same type was already open.
-From line 27, column 25; to line 27, column 103
-a class="nav-link scroll-link" href="trainer.html" data-replace="Need a PT?">span
+
+  - Document checking completed. No errors or warnings to show.
 
 - CSS
   - Document checking completed. No errors or warnings to show.
 
-## Lighthouse Report 
+### Lighthouse Report
 
-|Page|Device|Lighthouse Results|Comments|
+| Page      | Device  | Lighthouse Results                                      | Comments                                                                                                                                                                                    |
+| --------- | ------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Index     | Desktop | ![Index Results](documentation/index-desktop.JPG)       |                                                                                                                                                                                             |
+| Index     | Mobile  | ![IndexResults](documentation/index-mobile.JPG)         | Next-gen image formatting needed to increase performance.                                                                                                                                   |
+| Trainer   | Desktop | ![Trainer Results](documentation/trainer-desktop.JPG)   |                                                                                                                                                                                             |
+| Trainer   | Mobile  | ![Trainer Results](documentation/trainer-mobile.JPG)    |                                                                                                                                                                                             |
+| Challange | Desktop | ![Trainer Results](documentation/challange-desktop.JPG) | spoke with mentor about "best practice". He believes this to be through fault of bootstrap not through anything wrong with website                                                          |
+| Challange | Mobile  | ![Trainer Results](documentation/challange-mobile.JPG)  | Next-gen image formatting needed to increase performance. I Spoke with mentor about "best practice. He believes this to be through fault of bootstrap not through anything wrong with website |
+
+### Manual Testing
+
+
+
+Here is a table of the manual testing done on the site to determine if all features work as described and designed:
+
+|Feature Tested|Required Action|Expected Outcome|Result|
 |---|---|---|---|
-|Index  |Desktop |![Index Results](documentation/index-desktop.JPG)||
-|Index  |Mobile |![IndexResults](documentation/index-mobile.JPG)| Next-gen image formatting needed to increase performance.|
-|Trainer |Desktop|![Trainer Results](documentation/trainer-desktop.JPG)||
-|Trainer |Mobile |![Trainer Results](documentation/trainer-mobile.JPG)||
-|Challange  |Desktop |![Trainer Results](documentation/challange-desktop.JPG)||
-|Challange  |Mobile|![Trainer Results](documentation/challange-mobile.JPG)| Next-gen image formatting needed to increase performance.|
+|Amino Disrespect (all pages)|Left-click |This should direct the user to the homepage|Homepage successfully loads|
+|Personal Trainer Link (all pages)|Left-click|This should direct the user to trainer.html page |Trainer Page successfully loads|
+|30 day challange link (all pages)|Left-click|This should direct the user to challange.html|Challange page successfully loads|
+|Modal button (what are you waiting for?!) |Left-click|This should pop up a modal with an interest form| Modal successfully loads|
+|Form (modal pop up) |Enter details |This should not allow you to submit unless required fields completed| Submit without entered details will ask you to complete the required fields|
+|Social Media Icons (all pages)|Left-click |This should load social media pages|social media homepages load|
 
+---
 
+### Responsiveness 
 
+---
 
+This project is designed to be fully responsive, ensuring a seamless user experience across various devices and screen sizes. The layout and elements of the application dynamically adjust to provide optimal viewing and interaction on desktops, laptops, tablets, and mobile devices.
 
+By utilising responsive design techniques such as grids, flexible images, and media queries, the project is able to adapt its appearance and functionality. I
+
+Throughout the development process, extensive testing was conducted on different browsers and devices to ensure consistent and reliable responsiveness. The project's responsive design aims to provide a consistent look and feel, making it accessible and visually appealing to users regardless of their chosen platform.
+
+---
+## Deployment
+---
+### How the site was deployed
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, click on save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found here - https://joshmez1.github.io/Gym-Project/
+
+---
+
+## Credits & Acknowledgements
+
+---
+
+### Content
+
+- [W3schools](https://www.w3schools.com/bootstrap5/bootstrap_modal.php) for Modal ideas 
+- [Bootstrap](https://bootstrap.com/) for grid layouts
+- [Font Awesome](https://fontawesome.com/) for icons
+- Loving running project code used for thank you page
+
+### Media
+- Images were takent from [Pexels](https://www.pexels.com/).
+
+### People
+
+- Thank you my mentor Chris Quinn for his support during my project
 
 
