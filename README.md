@@ -220,7 +220,7 @@ Throughout the development process, extensive testing was conducted on different
 - Loving running project code used for thank you page
 
 ### Media
-- Images were takent from [Pexels](https://www.pexels.com/).
+- Images were taken from [Pexels](https://www.pexels.com/).
 
 ### People
 
