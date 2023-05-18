@@ -104,7 +104,7 @@ a {
 .background2 {
     height: 1000px;
     width:100%;
-    background:url(../images/challange3.jpg) no-repeat center center;
+    background:url(../images/background3.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 50px;
     
@@ -179,6 +179,25 @@ a {
 
     
   }
+/*****************Thank you**/
+
+.thankyou-text {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: rgba(71, 68, 65, 0.75);
+    top: 300px;
+    left: 40px;
+    position: absolute;
+    right: 40px;
+}
+
 
 
 /******************Modal**/
