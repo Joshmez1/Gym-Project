@@ -1,0 +1,566 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  *{
+    margin:0;
+    padding:0;
+    border:0;
+}
+  
+
+    body { 
+
+        font-family: "Roboto",sans-serif;
+        font-size: 25px;
+        height: 100%;
+        background-color: black;
+        
+        
+        
+    }
+
+  
+
+    header {
+        background-color: rgb(196, 195, 195);
+        width: 100%;
+        height: auto;
+        padding-top: 25px;
+       
+        
+        
+        
+        
+    }
+
+    .active {
+      text-decoration: underline;
+      text-decoration-color: red;
+    }
+
+
+    
+/***********************Nav and heading**/
+    .logo {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0) !important;
+    text-align: center;
+    background-color: rgb(196, 195, 195);
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    }
+
+ .nav .brand {
+    letter-spacing: 4px;
+    font-size: 30px;
+     
+}
+    .navbar-toggler-icon {
+ padding-right: 10px;
+    }
+
+.navbar-toggler {
+    border:1px solid black; 
+    margin-right: 25px;
+}
+
+
+
+
+.nav a {
+    color:rgb(0, 0, 0) ;
+    font-size: 20px;
+    margin-left:25px;
+    margin-right:25px;
+
+    
+}
+
+a {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+
+ 
+     
+
+/***************************Hero background****/
+    
+
+.background {
+    height: 1000px;
+    width:100%;
+    background:url(../images/boy.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 50px;
+    
+    
+
+}
+
+.background2 {
+    height: 1000px;
+    width:100%;
+    background:url(../images/background3.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 50px;
+    
+    
+
+}
+
+/***************************************Quotes**/
+
+.quote-section {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: auto;
+  color: white;
+  }
+  
+  .quote-challange {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    }
+  
+    
+    .quote h3 {
+      
+      text-transform: uppercase;
+      padding-top: 25px;
+      text-align: center;
+      
+    
+      }
+  
+      .quote p {
+      
+        
+        padding-top:10%;
+        font-size: 20px;
+        text-align: justify;
+       
+      
+        }
+
+ 
+  
+    .quote-challange h3 {
+      text-transform: uppercase;
+      padding-top:50px;
+      padding-bottom: 100px;
+    }
+  
+    .quote-challange p {
+  
+        font-size: 20px;
+        padding-bottom: 10%;
+    }
+  
+  
+  
+  h2 {
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 25%;
+  }
+  
+  .cover-text {
+    text-align: center;
+    color: white;
+   
+
+    
+  }
+/*****************Thank you**/
+
+.thankyou-text {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: rgba(71, 68, 65, 0.75);
+    top: 300px;
+    left: 40px;
+    position: absolute;
+    right: 40px;
+}
+
+
+
+/******************Modal**/
+
+.title {
+    color: black;
+  }
+  
+  .btn {
+    border-color: white;
+    color: white;
+  }
+  
+  .btn:hover{
+    background-color: red;
+    
+  }
+  
+
+  navbar-brand:hover {
+    color:red;
+  }
+  
+  .wrapper {
+    max-width: 850px;
+    margin: 50px auto;
+    height: 600px;
+    background-color: #FFF;
+    overflow: hidden;
+    box-shadow: 5px 25px 35px #3535356b;
+  }
+  
+  .wrapper .bg-dark {
+    background-color: #6b6b6b;
+    height: 100%;
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+  
+  
+  .wrapper .bg-dark .text-white {
+    font-size: 3rem;
+  }
+  
+  .wrapper .bg-dark.cursive {
+    font-family: 'roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+  
+  }
+  
+  .wrapper .contact-form {
+    width: 100%;
+    padding: 40px 80px 40px 50px;
+  }
+  
+  .wrapper .contact-form .h3 {
+    padding-top: 15px;
+    font-weight: 700;
+    color: black;
+  }
+  
+  .wrapper .contact-form label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .wrapper .contact-form textarea {
+    height: 120px;
+  }
+  
+  .wrapper .contact-form .form-control {
+    background-color: #e7e7e7;
+    box-shadow: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: none;
+    border-top: 1px solid #bbb;
+  }
+  
+  
+  .wrapper .contact-form .btn {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .wrapper .contact-form .btn {
+    color: #020202;
+  }
+  
+  
+  .wrapper .contact-form .btn.btn-primary {
+    background: #F50057;
+    border: none;
+    padding: 8px 18px;
+    box-shadow: 0 8px 12px #3535356b;
+  }
+  
+  .wrapper .contact-form .btn.btn-primary:hover {
+    background-color: #f50056e5;
+  }
+  
+  .modal .modal-content .modal-header .fas {
+    color: #fafafa;
+    background-color: black;
+  }
+  
+  .modal-body2 {
+    color: black;
+  }
+  
+  @media(max-width: 900.5px) {
+    .wrapper {
+        margin: 20px;
+    }
+  }
+  
+  @media(max-width: 991.98px) {
+  
+    .wrapper .contact-form {
+        padding: 40px;
+    }
+  
+    .wrapper .bg-dark {
+        padding-left: 30px;
+    }
+  }
+  
+  @media(max-width: 496px) {
+  
+    .wrapper .bg-dark {
+        display: none;
+    }
+  
+  }
+  
+  @media(max-width: 350px) {
+  
+    .wrapper {
+        height: 570px;
+    }
+  
+    .wrapper .contact-form {
+        padding: 20px;
+    }
+  }
+
+
+  .modal-content2 {
+    text-align: justify;
+    font-size: medium;    
+    background-color: black;
+    color: white;
+    
+  }
+
+/************************Trainer-cards*****/
+.trainer {
+    padding-top:100px; 
+}
+
+.challange-button {
+    padding-top: 25px ; 
+}
+
+
+/**************************Media Queries*/
+
+/*Nav bars*/
+
+@media (min-width: 992px) { 
+   
+    
+    a::before,
+    a::after {
+     content: '';
+      position: absolute;
+      width: 100%;
+      left: 0;
+    }
+    a::before {
+      background-color: #fa0909;
+      height: 2px;
+      bottom: 0;
+      transform-origin: 100% 50%;
+      transform: scaleX(0);
+      transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    }
+    a::after {
+      content: attr(data-replace);
+      height: 100%;
+      top: 0;
+      transform-origin: 100% 50%;
+      transform: translate3d(200%, 0, 0);
+      transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+      color: #e90505;
+    }
+    
+    a:hover::before {
+      transform-origin: 0% 50%;
+      transform: scaleX(1);
+    }
+    a:hover::after {
+      transform: translate3d(0, 0, 0);
+    }
+    
+    a span {
+      display: inline-block;
+      transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    }
+    
+    a:hover span {
+      transform: translate3d(-200%, 0, 0);
+    }
+
+   
+
+}
+
+@media (max-width: 575.98px) {
+
+    
+    .nav .brand {
+        letter-spacing: 4px;
+        font-size: 20px;
+        
+    }
+    
+}
+
+@media (max-width: 496px) {
+
+    
+    .nav .brand {
+        
+        margin:auto;
+        
+    }
+
+    .navbar-toggler {
+        margin: auto;
+    }
+    
+}
+/*Trainer Quotes*/
+
+@media (max-width: 1199.98px) {
+
+
+.modal-content2 {
+    text-align: justify;
+    font-size: medium;
+    background-color: black;
+    color: white;
+    
+  }
+}
+
+@media (max-width: 496px) {
+
+
+    .modal-content2 {
+        text-align: justify;
+        font-size: small;
+        background-color: black;
+        color: white;
+        
+      }
+    }
+/**************MAP*****/
+.map-container-2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-2 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position: absolute;
+
+
+}
+
+
+  
+
+
+/***************Footer*/
+
+
+    
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
+}
+
+.card{
+  background-color: black;
+  color: white;
+}
+
+.card-header {
+  text-transform: uppercase;
+}
+
+.footer {
+  
+  
+  
+  background-color: black;
+  text-align: center;
+  padding-top:5%;
+  position: sticky;
+  top: 100vh;
+    
+}
+
+.card-footer {
+  color: #a5a1a1;
+}
+
+/****************Jumbotron****/
+
+.jumbotron h1 {
+    padding-top:200px;
+    padding-bottom:100px;
+}
+
+.jumbotron p {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/********************Font Awesome*****/
+
+ .sign {
+    color: red;
+    font-size:50px; 
+}
+
+/***************Location**********/ 
+
+.location h3 {
+    padding-bottom:50px;
+    text-transform: uppercase;
+    padding-top:25px; 
+}
