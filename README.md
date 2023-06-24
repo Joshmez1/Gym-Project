@@ -38,6 +38,13 @@ Through extensive research on various gyms across the UK, it became evident that
 
 - Google Fonts were used to import the 'Roboto' and 'Poppins' font styles in the style.css file.
 
+### Wireframes
+
+   - [Home](documentation/challenge-wireframe.JPG)
+   - [Trainers](documentation/trainer-wireframe.JPG)
+   - [30-Day Challenge](documentation/challenge-wireframe.JPG)
+   - [Thank You](documentation/thankyou-wireframe.JPG) 
+
 ### Built With
 
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -147,6 +154,22 @@ The website has undergone thorough testing across multiple browsers, including C
 - Bugs - Whilst testing on devices i identified that the hambuger logo wasnt the correct color on mobile or tablet devices. I wanted to change the color to all black and found out i could do that by manually changing the RBGA values through the URL: as seen below. I fixed this bug by reverting to the inherited color of the toggler.
 
 ![Image of toggle ](documentation/url.JPG)
+
+### User Story Tetsing
+
+|User Story|Screenshot|
+|---|---|
+|**First Time Visitor**|
+|As a first time visitor, I want to understand what services i can be offered|![Homepage](documentation/UserTesting-home.JPG)|
+|As a first time visitor, I want to be able navigate the pages of interest easily. |![Navigation](documentation/nav.JPG)|
+|As a first time visitor, I want to understand who can help me achieve my goals|![Trainers](documentation/trainer1.JPG)|
+|As a first time visitor, I want to see if i can try the service before i sign up|![30 day challenge](documentation/challange2.JPG)|
+|**Returning Visitor**|
+|As a returning visitor, I want to get in contact with the company|![Contact Form](documentation/modal.JPG)|
+|As a returning visitor, I want to know the location|![Map](documentation/challange3.JPG)|
+|**Website Administrator**|
+|As a website administrator, I would like to update my personal Trainers|![Gallery](documentation/trainer1.JPG)|
+|As a website administrator, I would like users to find it easy to register their interst|![Contact page](documentation/homepage.JPG)|
 
 ### Validator Testing
 
