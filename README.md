@@ -155,7 +155,7 @@ The website has undergone thorough testing across multiple browsers, including C
 
 ![Image of toggle ](documentation/url.JPG)
 
-### User Story Tetsing
+### User Story Testing
 
 |User Story|Screenshot|
 |---|---|
@@ -221,13 +221,45 @@ Throughout the development process, extensive testing was conducted on different
 ---
 ## Deployment
 ---
-### How the site was deployed
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, click on save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link can be found here - https://joshmez1.github.io/Gym-Project/
+
+The website has been deployed to GitHub Pages. Follow the steps below to deploy the site:
+
+- Go to the [GitHub repository]( https://joshmez1.github.io/Gym-Project), navigate to the Settings tab.
+- Under the "Code and automation" section, select "Pages".
+- From the sourcedrop-down menu, select the **Main** Branch, then select "Save".
+- The page will automatically refresh, and a detailed ribbon display to indicate the successful deployment.
+
+You are view the live site [here]( https://joshmez1.github.io/Gym-Project)
+
+### Local Deployment
+
+To have a local copy of this project on your system, you can either clone or fork the repository.
+
+### Cloning
+
+Follow these steps to clone the repository:
+
+1. Go to the [GitHub repository]( https://joshmez1.github.io/Gym-Project)
+2. Click the "Code" button above the file list.
+3. Choose your preferred cloning method (HTTPS, SSH, or GitHub CLI) and click the copy button to copy the repository's URL.
+4. Open Git Bash or Terminal
+5. Change the current working directory to the desired location for the cloned directory.
+6. In your IDE Terminal, type the following command to clone my repository:
+   - `git clone https://github.com/ Joshmez1/Gym-Project.git`
+7. Press Enter to create your local clone.
+
+### Forking
+
+Forking the GitHub repository allows you to create a copy of the original repository on your own GitHub account. This enables you to view and make changes without affecting the original owner's repository. To fork this repository, follow these steps:
+
+1. Log in to GitHub and go to the  [GitHub Repository]( https://joshmez1.github.io/Gym-Project)
+2. Locate the "Fork" button at the top right of the repository page.
+3. Click the "Fork" button to create a copy of the repository in your own GitHub account.
+
+After forking, you will have your own version of the repository that you can view and modify as needed.
+
+
 
 ---
 
