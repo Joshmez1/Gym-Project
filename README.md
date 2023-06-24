@@ -214,7 +214,7 @@ Throughout the development process, extensive testing was conducted on different
 
 ### Content
 
-- [W3schools](https://www.w3schools.com/bootstrap5/bootstrap_modal.php) for Modal ideas 
+- [Bbbootstrap](https://bbbootstrap.com/snippets/bootstrap-5-simple-contact-us-form-modal-23624221) for Modal ideas 
 - [Bootstrap](https://bootstrap.com/) for grid layouts
 - [Font Awesome](https://fontawesome.com/) for icons
 - Loving running project code used for thank you page
