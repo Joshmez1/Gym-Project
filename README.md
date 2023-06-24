@@ -85,7 +85,7 @@ This image represents hovering over the personal trainer which would take you to
 
 ![Navigation bar image](documentation/nav3.JPG)
 
-This image represents hovering over the 30 day challange which would take you to the challange page where you will find the information on the 30 day challange.
+This image represents hovering over the 30 day challenge which would take you to the challenge page where you will find the information on the 30 day challenge.
 
 ---
 
@@ -133,15 +133,15 @@ On the Personal Trainer page, users are guided towards individual personal train
 
 ---
 
-### 30 Day Challange
+### 30 Day Challenge
 
 The 30-Day Challenge page is specifically tailored for users who have followed the intended website flow, starting from the home page to explore the offered services, proceeding to the Personal Trainers page to identify their interests, and finally arriving at the 30-Day Challenge page. The same modal used previously is utilized here for users to register their interest in the challenge. Additionally, an embedded map is included to visually indicate the location.
 
-![Image of challange page ](documentation/c1.JPG)
+![Image of challenge page ](documentation/c1.JPG)
 
-![Image of challange page ](documentation/challange2.JPG)
+![Image of challenge page ](documentation/challange2.JPG)
 
-![Image of challange page ](documentation/challange3.JPG)
+![Image of challenge page ](documentation/challange3.JPG)
 
 ---
 
@@ -188,8 +188,8 @@ The website has undergone thorough testing across multiple browsers, including C
 | Index     | Mobile  | ![IndexResults](documentation/index-mobile.JPG)         | Next-gen image formatting needed to increase performance.                                                                                                                                   |
 | Trainer   | Desktop | ![Trainer Results](documentation/trainer-desktop.JPG)   |                                                                                                                                                                                             |
 | Trainer   | Mobile  | ![Trainer Results](documentation/trainer-mobile.JPG)    |                                                                                                                                                                                             |
-| Challange | Desktop | ![Trainer Results](documentation/challange-desktop.JPG) | spoke with mentor about "best practice". He believes this to be through fault of bootstrap not through anything wrong with website                                                          |
-| Challange | Mobile  | ![Trainer Results](documentation/challange-mobile.JPG)  | Next-gen image formatting needed to increase performance. I Spoke with mentor about "best practice. He believes this to be through fault of bootstrap not through anything wrong with website |
+| Challenge | Desktop | ![Trainer Results](documentation/challange-desktop.JPG) | spoke with mentor about "best practice". He believes this to be through fault of bootstrap not through anything wrong with website                                                          |
+| Challenge | Mobile  | ![Trainer Results](documentation/challange-mobile.JPG)  | Next-gen image formatting needed to increase performance. I Spoke with mentor about "best practice. He believes this to be through fault of bootstrap not through anything wrong with website |
 
 ### Manual Testing
 
@@ -201,7 +201,7 @@ Here is a table of the manual testing done on the site to determine if all featu
 |---|---|---|---|
 |Amino Disrespect (all pages)|Left-click |This should direct the user to the homepage|Homepage successfully loads|
 |Personal Trainer Link (all pages)|Left-click|This should direct the user to trainer.html page |Trainer Page successfully loads|
-|30 day challange link (all pages)|Left-click|This should direct the user to challange.html|Challange page successfully loads|
+|30 day challenge link (all pages)|Left-click|This should direct the user to challenge.html|Challenge page successfully loads|
 |Modal button (what are you waiting for?!) |Left-click|This should pop up a modal with an interest form| Modal successfully loads|
 |Form (modal pop up) |Enter details |This should not allow you to submit unless required fields completed| Submit without entered details will ask you to complete the required fields|
 |Social Media Icons (all pages)|Left-click |This should load social media pages|social media homepages load|
